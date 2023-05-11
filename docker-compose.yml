@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  arduino-cli:
+  arduinosetup:
     image: ghcr.io/jpconstantineau/docker_arduino_cli:latest
     volumes:
       - arduino-data:/opt/arduino

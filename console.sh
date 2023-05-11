@@ -1,3 +1,3 @@
-id=$(docker ps -aqf "name=arduino-arduino-cli-1")
+id=$(docker ps -aqf "name=arduinosetup")
 echo "Ingresando al contenedor $id" 
 docker exec -it  $id bash
