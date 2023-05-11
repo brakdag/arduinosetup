@@ -9,7 +9,7 @@ Para iniciar la imagen tener instalado docker.
 
 # Para iniciar el servidor.
 
-bash```
+```bash
 git clone https://github.com/brakdag/arduinosetup.git
 docker compose up -d
 ```
