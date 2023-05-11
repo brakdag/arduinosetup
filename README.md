@@ -15,7 +15,7 @@ Para iniciar la imagen tener instalado docker.
 >docker compose up -d
 ```
 
-#Para cargar el código a arduino 
+# Para cargar el código a arduino 
 Este comando de consola 
 
 ```bash
