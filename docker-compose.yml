@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  arduino-cli:
+    image: ghcr.io/jpconstantineau/docker_arduino_cli:latest
+    volumes:
+      - arduino-data:/opt/arduino
+      - .:/root
+    devices:
+      - "/dev/ttyACM0"
+    command: tail -f /dev/null
+
+volumes:
+  arduino-data:
